@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <section class="header">
+      <h1 class="heading">Learn to code by watching others</h1>
+      <p class="about-us">
+        See how experienced developers solve problems in
+        real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+    <section class="content">
+      <article class="price-box">
+        <span class="bolded">Try it free 7 days</span>
+        then $20/mo. thereafter
+      </article>
+      <article>
+        <form class="sign-up-box">
+          <img src="images/icon-error.svg" alt="Error icon" class="error-icon first-name-icon none">
+          <span class="error-msg first-name-msg none">First Name cannot be empty</span>
+          <input type="text" class="input-field firstname" name="firstname" placeholder="First Name">
+
+          <img src="images/icon-error.svg" alt="Error icon" class="error-icon last-name-icon none">
+          <span class="error-msg last-name-msg none">Last Name cannot be empty</span>
+          <input type="text" class="input-field lastname" name="lastname" placeholder="Last Name">
+
+          <img src="images/icon-error.svg" alt="Error icon" class="error-icon email-icon none">
+          <span class="error-msg email-msg none">Look like this is not an email</span>
+          <input type="email" class="input-field email" name="email" placeholder="Email Address">
+
+          <img src="images/icon-error.svg" alt="Error icon" class="error-icon password-icon none">
+          <span class="error-msg password-msg none">Password cannot be empty</span>
+          <input type="password" class="input-field password" name="password" placeholder="Password">
+
+          <button type="submit" class="submit">Claim your free trial</button>
+          <p class="terms">
+            By clicking the button, you are agreeing
+            to our <span class="red">Terms and Services</span>
+          </p>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <script src="scipt.js"></script>
+
+</body>
+
+</html>
